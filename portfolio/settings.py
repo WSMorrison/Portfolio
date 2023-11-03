@@ -29,7 +29,9 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-wsmorrison-portfolio-2hrxtmfymat.ws-us105.gitpod.io']
+ALLOWED_HOSTS = ['localhost',
+                 '8000-wsmorrison-portfolio-2hrxtmfymat.ws-us105.gitpod.io'
+                 ]
 
 
 # Application definition
