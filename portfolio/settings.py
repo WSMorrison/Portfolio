@@ -30,7 +30,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = ['localhost',
-                 '8000-wsmorrison-portfolio-2hrxtmfymat.ws-us105.gitpod.io'
+                 '8000-wsmorrison-portfolio-2hrxtmfymat.ws-us105.gitpod.io',
+                 '8000-wsmorrison-portfolio-lqsq97467mo.ws-us106.gitpod.io',
                  ]
 
 
